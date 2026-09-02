@@ -1,0 +1,14 @@
+#INCLUDE "PROTHEUS.CH"
+
+User Function SF2460I()
+
+	RecLock("SF2",.F.)
+	F2_USERF := Alltrim( UsrFullName(RetCodUsr()))
+	F2_LINHA1:= SC5->C5_LINHA1
+	F2_LINHA2:= SC5->C5_LINHA2
+	F2_LINHA3:= SC5->C5_LINHA3
+	F2_LINHA4:= SC5->C5_LINHA4
+	F2_LINHA5:= SC5->C5_LINHA5
+
+
+Return()
