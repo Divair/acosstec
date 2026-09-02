@@ -5,6 +5,7 @@
 #Include "TOPCONN.CH"
 
 
+//teste
 user function ob_blocok()
 	cPerg :=  padr("OB_BLK",len(SX1->X1_GRUPO)," ")
 	ValidPerg()
