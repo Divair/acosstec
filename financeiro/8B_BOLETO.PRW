@@ -24,7 +24,7 @@
 /*
 Emissao de boletos - mantive o nome da função - FBBOLTRS
 */
-User Function FBBOLTRS()
+User Function _FBBOLTRS()
 	//Local oFont08		:= TFont():New("Times New Roman",08,08,,.F.,,,,.T.,.F.)
 	//Local oFont08N		:= TFont():New("Times New Roman",08,08,,.T.,,,,.T.,.F.)
 	//Local oFont10N		:= TFont():New("Times New Roman",10,10,,.T.,,,,.T.,.F.)

@@ -17,5 +17,5 @@
 
 User Function FA740BRW()
 	Local aRotina := {} //ParamIxb
-	aAdd( aRotina, { "Imprimir Boleto", "U_FBBOLTRS", 0, 6, 0 })
+	aAdd( aRotina, { "Imprimir Boleto", "U__FBBOLTRS", 0, 6, 0 })
 Return( aRotina )
